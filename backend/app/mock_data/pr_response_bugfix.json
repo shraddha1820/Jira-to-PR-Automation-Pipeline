@@ -1,0 +1,8 @@
+{
+  "branch_name": "feature/demo-101-api-returns-500-when-email-is-missing-expecte",
+  "commit_message": "feat: fix DEMO-101 email validation",
+  "pr_title": "[DEMO-101] Fix missing email validation",
+  "pr_body": "## Summary\nFix the create_user handler so missing email returns a 400-style validation response.\n## Planned changes\n- Add defensive access for email field\n- Return explicit validation payload when email is absent\n- Extend unit test coverage\n## Validation\n- lint\n- unit tests",
+  "pr_url": null,
+  "is_simulated": true
+}

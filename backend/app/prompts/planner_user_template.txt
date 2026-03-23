@@ -1,0 +1,3 @@
+Ticket summary: {{summary}}
+Description: {{description}}
+Acceptance criteria: {{acceptance_criteria}}

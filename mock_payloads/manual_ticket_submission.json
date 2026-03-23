@@ -1,0 +1,12 @@
+{
+  "ticket_id": "DEMO-101",
+  "summary": "API returns 500 when email is missing; expected 400 validation error",
+  "description": "Patch the demo FastAPI-style handler so missing email returns a validation response instead of raising a KeyError.",
+  "acceptance_criteria": [
+    "Return 400 when email is missing",
+    "Keep successful path unchanged",
+    "Update test coverage"
+  ],
+  "priority": "High",
+  "labels": ["bug", "demo", "api"]
+}

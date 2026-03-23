@@ -1,0 +1,14 @@
+{
+  "ticket_id": "DEMO-101",
+  "fields": {
+    "summary": "API returns 500 when email is missing; expected 400 validation error",
+    "description": "The create_user endpoint reads payload['email'] directly. When the client omits email, the API crashes instead of returning a proper validation response.",
+    "priority": "High",
+    "labels": ["bug", "backend", "validation"],
+    "acceptance_criteria": [
+      "When email is missing, return status_code 400",
+      "Do not crash on empty payload",
+      "Add or update test coverage for missing email"
+    ]
+  }
+}
